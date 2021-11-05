@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`gatsby-plugin-smartlook onRenderBody in production mode sets the correct head components 1`] = `
+Array [
+  Array [
+    Array [
+      <script
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "
+window.smartlook||(function(d) {
+var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+})(document);
+smartlook('init', '12345');
+      ",
+          }
+        }
+      />,
+    ],
+  ],
+]
+`;
