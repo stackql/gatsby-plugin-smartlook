@@ -10,16 +10,17 @@
   },
   "keywords": [
     "gatsby",
-    "gatsby-plugin"
+    "gatsby-plugin",
+    "smartlook"
   ],
-  "author": "Jeffrey Aven <javen@infraql.io>",
+  "author": "Jeffrey Aven <javen@stackql.io>",
   "bugs": {
-    "url": "https://github.com/infraql/gatsby-plugin-smartlook/issues"
+    "url": "https://github.com/stackql/gatsby-plugin-smartlook/issues"
   },
-  "homepage": "https://github.com/infraql/gatsby-plugin-smartlook#readme",
+  "homepage": "https://github.com/stackql/gatsby-plugin-smartlook#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/infraql/gatsby-plugin-smartlook.git",
+    "url": "https://github.com/stackql/gatsby-plugin-smartlook.git",
     "directory": "/"
   },
   "license": "MIT",
@@ -33,11 +34,6 @@
     "cross-env": "^7.0.3"
   },
   "peerDependencies": {
-    "gatsby": "^4.0.0-next",
-    "react": "^16.9.0 || ^17.0.0",
-    "react-dom": "^16.9.0 || ^17.0.0"
-  },
-  "engines": {
-    "node": ">=14.15.0"
+    "gatsby": "^4.0.0-next"
   }
 }
