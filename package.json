@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-smartlook",
-  "version": "1.0.0",
+  "version": "1.0.1",
  "description": "Plugin to add the tracking code for Smartlook",
   "main": "index.js",
   "scripts": {
